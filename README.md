@@ -1,13 +1,13 @@
 
-RISE is an integrated scripting environment for students, educators, artists and game designers who want to learn JavaScript game design in a simple way.
+***RISE*** is an integrated scripting environment for students, educators, artists and game designers who want to learn JavaScript game design in a simple way.
 
 See contributing.md for information on helping RISE grow!
 
-** creating the distribution from the repository **
+## creating the distribution from the repository
 
 Note there are a couple patches below, before attempting to update any dependencies.
 
-** MAC OS  or WINDOWS **
+### MAC OS  or WINDOWS
 
 Verify that NPM is installed on your system  ( https://www.npmjs.com/get-npm )
 Navigate to your clone of the repository in your terminal then run the following commands:
@@ -20,7 +20,7 @@ Then from your terminal run:
 
 
 
-** Change Log **
+## Change Log
 
     1.0.0  - first public release to Github
       ▪	Working Directory operations more intuitive   
@@ -40,7 +40,7 @@ Then from your terminal run:
 
 
 
-**  Future **
+## Future
 
        	▪	ADD templates:  MelonJS, EaselJS
         ▪ simplify Start Screen interface for Template selection
