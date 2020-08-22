@@ -1,0 +1,54 @@
+{
+  "name": "RISE",
+  "version": "1.0.0",
+  "description": "Rise: Integrated Scripting Editor",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
+  },
+  "author": "Wil Lindsay",
+  "license": "MIT",
+  "devDependencies": {
+    "electron": "^9.0.3",
+    "electron-builder": "^22.8.0"
+  },
+  "dependencies": {
+    "electron-prompt": "^1.5.1",
+    "electron-reload": "^1.5.0",
+    "fs-extra": "^9.0.1",
+    "hotkeys-js": "^3.8.1"
+  },
+  "build": {
+    "appId": "com.rise.editor",
+    "mac": {
+      "category": "public.app-category.developer-tools",
+      "target": [
+        "dmg"
+      ],
+      "type": "distribution",
+      "icon": "build/icon.icns",
+      "files": [
+        "src/**/*",
+        "node_modules/**/**/**/*",
+        "package.json",
+        "LICENSE.md"
+      ]
+    },
+    "win": {
+      "target": "nsis",
+      "icon": "build/icon.png",
+      "files": [
+        "src/**/*",
+        "node_modules/**/**/**/*",
+        "package.json",
+        "LICENSE.md"
+      ]
+    },
+    "nsis": {
+      "allowToChangeInstallationDirectory": true,
+      "oneClick": false
+    }
+  }
+}

@@ -1,0 +1,87 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Rise</title>
+    <!-- review Electron security warnings -->
+    <!-- https://electronjs.org/docs/tutorial/security#csp-meta-tag -->
+    <meta http-equiv="Content-Security-Policy" content="script-src 'self' 'unsafe-inline'; child-src 'self' blob:;" />
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto+Slab">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/milligram.css">
+
+</head>
+<body>
+   <!-- This is the start screen where user selects a template or project to open   -->
+    <div id="start-screen">
+        <div id="start-box">
+            <div><img id="project-logo" src="icons/riseLogo.svg" width="150px" height="150px" alt="logo image"/></div>
+            <div id="intro-text">
+                <!-- reserved  -->
+            </div>
+            <div class="row">
+                <div id="start-btn-container">
+                    <button id="start-plain-project" class="start-btn column"> Create New Empty JS Project</button>
+                    <button id="start-canvas-project" class="start-btn column"> Create New Canvas Project</button>
+                    <button id="start-phaser-project" class="start-btn column"> Create New Phaser Project</button>
+                    <button id="start-pixi-project" class="start-btn column"> Create New PixiJS Project</button>
+                    <br>
+                    <button id="open-existing-project" class="start-btn column"> Open Existing Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+   <!--  this is the settings screen where user controls runWindow parameters or editor parameters -->
+    <div id="settings-screen">
+        <div id="settings-box">
+        <h2 id="settings-title">Settings</h2>
+            <button id="confirm-settings-btn" class="confirm-btn">Close</button>
+        </div>
+    </div>
+   <!--  this is the alert box used to report file-save or folder issues -->
+   <div id="alert-screen">
+       <div id="alert-box">
+           <p id="alert-text">Alert</p>
+           <button id="confirm-alert-btn" class="confirm-btn">OK</button>
+       </div>
+   </div>
+   <!-- this is the main window with nav-bar, tab-bar, editors and footer -->
+    <div class="row">
+        <div id="top-btn-container">
+            <button id="save-file-btn" type="button" class="top-btn"><img src="icons/save.svg" width="36px" height="36px" alt="Save"/></button>
+            <button id="save-file-as-btn" type="button" class="top-btn"><img src="icons/saveAs.svg" width="36px" height="36px" alt="Save as..."/></button>
+            <button id="open-new-btn" type="button" class="top-btn"><img src="icons/new.svg" width="36px" height="36px" alt="New"/></button>
+            <button id="settings-btn" type="button" class="top-btn"><img src="icons/settings.svg" width="36px" height="36px" alt="Settings"/></button>
+            <button id="help-btn" type="button" class="top-btn"><img src="icons/help.svg" width="36px" height="36px" alt="Help"/></button>
+
+            <button id="run-project" type="button" class="top-btn"><img src="icons/view.svg" width="36px" height="36px" alt="View"/></button>
+            <button id="console-btn" type="button" class="top-btn"><img src="icons/console.svg" width="36px" height="36px" alt="Console"/></button>
+        </div>
+    </div>
+
+    <div id ="tab-bar" >
+        <button id="editor-js-btn" class="tab-btn toggled">main.js</button>
+        <button id="editor-html-btn" class="tab-btn">index.html</button>
+        <div id="tool-tip">
+            &nbsp;
+        </div>
+    </div>
+    <!-- two or more editors controlled by the tab-bar buttons -->
+    <div id="editor-html" class="tab-content">
+        &lt;!-- your index.html goes here -->
+    </div>
+
+    <div id="editor-js" class="tab-content">
+        /* your javascript game goes here */
+    </div>
+    <!-- footer shows local working directory -->
+    <div id="info-footer">
+        Footer
+    </div>
+    <script src="ace/ace.js" type="text/javascript" charset="utf-8"></script>
+    <script src="hotkeys/hotkeys.js" type="text/javascript" charset="utf-8"></script>
+    <script src="templates.js" type="text/javascript" charset="utf-8"></script>
+    <script src="editor.js" type="text/javascript" charset="utf-8"></script>
+</body>
+</html>
