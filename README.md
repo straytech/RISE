@@ -3,10 +3,12 @@ RISE is an integrated scripting environment for students, educators, artists and
 
 See contributing.md for information on helping RISE grow!
 
-*** creating the distribution from the repository ***
+** creating the distribution from the repository **
+
 Note there are a couple patches below, before attempting to update any dependencies.
 
 ** MAC OS  or WINDOWS **
+
 Verify that NPM is installed on your system  ( https://www.npmjs.com/get-npm )
 Navigate to your clone of the repository in your terminal then run the following commands:
        npm install
@@ -47,4 +49,3 @@ Then from your terminal run:
        	▪	User Settings could be implemented ( runWindow H & W etc..)
        	▪	Potential for additional script editor tabs and multi file projects
        	▪	RiseEngine —a fantasy game console library to work with Rise!
-       	▪
