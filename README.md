@@ -10,7 +10,6 @@ Note there are a couple patches below, before attempting to update any dependenc
 Verify that NPM is installed on your system  ( https://www.npmjs.com/get-npm )
 Navigate to your clone of the repository in your terminal then run the following commands:
        npm install
-       npm install electron-builder
 
 Move the contents of the "/patch" folder to /electron_modules/ and let it overwrite.
 Then from your terminal run:
