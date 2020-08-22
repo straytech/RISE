@@ -3,10 +3,10 @@ I'm very happy to accept contributions to RISE, as it is intended to be a tool f
 
 The program is based on Electron and MANY other fabulous libraries. As such, there are a lot of parts to learn.
 
-*** creating the distribution from the repository ***
+## creating the distribution from the repository
 Note there are a couple patches below, before attempting to update any dependencies.
 
-** MAC OS  or WINDOWS **
+## MAC OS  or WINDOWS
 Verify that NPM is installed on your system  ( https://www.npmjs.com/get-npm )
 Navigate to your clone of the repository in your terminal then run the following commands:
        npm install
@@ -17,7 +17,7 @@ Then from your terminal run:
 
 
 
-*** Frameworks & Libraries Used in RISE ***
+## Frameworks & Libraries Used in RISE
 Electron
 Node
 Ace
@@ -27,18 +27,18 @@ Hotkeys
 Roboto Font
 Electron-Builder
 
-*** Licensing Practice ***
+## Licensing Practice
 MIT or MIT Compatible
 
 
-*** Code Style and Conventions ***
+## Code Style and Conventions
 Coding Style is recommended here for ease in collaboration and introduction to common practices used in the code base.
 Reference should be cited where practical, to facilitate entry for newer programmers or contributors.
 
 To Be Determined ...
 
 
-***  Current Patches to Dependencies ***
+##  Current Patches to Dependencies (found in the /patches Folder)
 https://github.com/p-sam/electron-prompt is currently being used, and needs some manual changes.
 It should probably eventually be replaced by the system used for Alerts in RISE.
 
