@@ -17,8 +17,8 @@ Then from your terminal run:
 
 
 
- —————————————
-  Change log
+
+** Change log **
 
 
        0.3.0   
