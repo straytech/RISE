@@ -19,7 +19,8 @@ Then from your terminal run:
 
  —————————————
   Change log
- —————————————
+
+
        0.3.0   
        	▪	Alpha code base completed July 2, 2020
        	▪	Node.js fs (file system) changed to fs-extra to allow for recursive folder changes.
