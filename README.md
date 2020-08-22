@@ -20,27 +20,27 @@ Then from your terminal run:
 
 
 
-** Change log **
+** Change Log **
+
+    1.0.0  - first public release to Github
+      ▪	Working Directory operations more intuitive   
+      ▪	README.md, Contributing.md created  
+      ▪	Files cleaned and packaged for distribution
+
+    0.4.0
+      ▪	New application icons
+      ▪	Install Packages created for MAC and WIN
+      ▪	Rise Example “Hello Rise” created.
+      ▪	Examples Directory and several Hello World Examples created.
+
+    0.3.0   
+      ▪	Alpha code base completed July 2, 2020
+      ▪	Node.js fs (file system) changed to fs-extra to allow for recursive folder changes.
+      ▪	Interface fixes
 
 
-       0.3.0   
-       	▪	Alpha code base completed July 2, 2020
-       	▪	Node.js fs (file system) changed to fs-extra to allow for recursive folder changes.
-       	▪	Interface fixes
 
-       0.4.0
-       	▪	New application icons
-       	▪	Install Packages created for MAC and WIN
-       	▪	Rise Example “Hello Rise” created.
-       	▪	Examples Directory and several Hello World Examples created.
-
-
-       1.0.0  - first public release to Github
-       	▪	Working Directory operations more intuitive   
-       	▪	README.md, Contributing.md created  
-       	▪	Files cleaned and packaged for distribution
-
-       Future …
+**  Future **
 
        	▪	ADD templates:  MelonJS, EaselJS
         ▪ simplify Start Screen interface for Template selection
