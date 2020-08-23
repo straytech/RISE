@@ -74,7 +74,7 @@ function newFromTemplate(HTMLContent,JSContent){
 
 // Logo links to help web page
 document.getElementById('project-logo').onclick = function () {
-    shell.openExternal('http://www.google.com');  //replace with permanent help page <========
+    shell.openExternal('https://straytech.github.io/RISE/index.html');  //replace with permanent help page <========
 }
 
 // Logo needs mouseover cursor change
@@ -310,7 +310,7 @@ document.getElementById('settings-btn').onclick = function () {
 
 // Help Button
 document.getElementById('help-btn').onclick = function () {
-    shell.openExternal('http://www.google.com');  //replace with permanent help page
+    shell.openExternal('https://straytech.github.io/RISE/begin.html');  //replace with permanent help page
 }
 
 // user's runWindow
