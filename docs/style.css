@@ -11,12 +11,13 @@
 }
 
 .nav_label{
-    color: #991E20;
+    color: #505050;
     text-align: right;
     padding-right: 1em;
 }
 
 .nav_current{
+    color: #FF901F;
     text-align: right;
     padding-right: 1em;
 }
