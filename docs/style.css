@@ -2,21 +2,38 @@
 #logo{
     margin-top: 2em;
     margin-bottom: 2em;
+    margin-left: .5em;
 }
 
 .nav_item{
     text-align: right;
-    padding-right: 2em;
+    padding-right: 1em;
 }
 
 .nav_label{
     color: #991E20;
     text-align: right;
-    padding-right: 2em;
+    padding-right: 1em;
+}
+
+.nav_current{
+    text-align: right;
+    padding-right: 1em;
+}
+
+.footer{
+    position: absolute;
+    bottom: 1em;
+    right: 2em;
+}
+
+.icons{
+    height: 1em;
+    margin-left: 1em;
 }
 
 li{
-    padding-right: 2em;
+    padding-right: 1em;
 }
 
 
@@ -25,4 +42,8 @@ a{
 }
 a:hover{
     color: #991E20;
+}
+
+a:visited{
+    border: none;
 }
