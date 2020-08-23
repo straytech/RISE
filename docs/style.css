@@ -54,11 +54,8 @@ li{
 
 a{
     color: #000000;
+    outline: 0;
 }
 a:hover{
     color: #991E20;
-}
-
-a:visited{
-    border: none;
 }
