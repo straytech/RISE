@@ -1,8 +1,14 @@
 
 #logo{
+    width: 80%;
     margin-top: 2em;
-    margin-bottom: 2em;
-    margin-left: .5em;
+    margin-left: 2em;
+    margin-bottom: 1em;
+}
+
+#page-tag{
+    margin-bottom: 3em;
+
 }
 
 .nav_item{
@@ -13,7 +19,7 @@
 .nav_label{
     color: #505050;
     text-align: right;
-    padding-right: 1em;
+    padding-right: 1.2em;
 }
 
 .nav_current{
