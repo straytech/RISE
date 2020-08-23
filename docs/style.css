@@ -22,7 +22,7 @@
 }
 
 .footer{
-    position: absolute;
+    position: fixed;
     bottom: 1em;
     right: 2em;
 }
@@ -30,6 +30,14 @@
 .icons{
     height: 1em;
     margin-left: 1em;
+}
+
+#main_content{
+    padding-bottom: 3em;
+}
+
+p{
+    margin-top: 1em;
 }
 
 li{
